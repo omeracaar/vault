@@ -40,7 +40,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "localhost:8080/api/employees/1",
+          "raw": "localhost:8080/api/employees/2",
           "host": [
             "localhost"
           ],
@@ -48,7 +48,7 @@
           "path": [
             "api",
             "employees",
-            "1"
+            "2"
           ]
         }
       },
@@ -88,7 +88,7 @@
           }
         },
         "url": {
-          "raw": "localhost:8080/api/employees/1",
+          "raw": "localhost:8080/api/employees/4",
           "host": [
             "localhost"
           ],
@@ -96,7 +96,7 @@
           "path": [
             "api",
             "employees",
-            "1"
+            "4"
           ]
         }
       },
@@ -108,7 +108,7 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "localhost:8080/api/employees/1",
+          "raw": "localhost:8080/api/employees/4",
           "host": [
             "localhost"
           ],
@@ -116,7 +116,26 @@
           "path": [
             "api",
             "employees",
-            "1"
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Secret Conflict",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/config",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "config"
           ]
         }
       },
